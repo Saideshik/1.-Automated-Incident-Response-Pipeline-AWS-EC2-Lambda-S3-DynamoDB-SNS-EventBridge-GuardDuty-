@@ -22,9 +22,10 @@ GuardDuty → EventBridge → Lambda → EC2/S3/DynamoDB/SNS
 ## 📂 Project Structure
 
 incident_response_pipeline/
-1 code/
-│   ├── incident_response_lambda.py   # AWS Lambda function
-2 policies/
+1. code/
+
+│    incident_response_lambda.py   # AWS Lambda function
+2. policies/
 │   ├── incident_response_policy.json   # IAM policy
 3 diagrams/
 │   └── Visual_pipeline_diagram.png     # Visual pipeline diagram
