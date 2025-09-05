@@ -26,7 +26,8 @@ incident_response_pipeline/
 2. policies/incident_response_policy.json           # IAM policy
 3. diagrams/Visual_pipeline_diagram.png             # Visual pipeline diagram
 4. tests/stop_ec2_test.json                         # Sample test event for Lambda
-5. README.md
+5. LICENSE
+6. README.md
 
 ## 🧑‍💻 Skills Demonstrated
 - AWS Lambda development (Python + boto3)
