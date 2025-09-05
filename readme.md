@@ -22,15 +22,15 @@ GuardDuty → EventBridge → Lambda → EC2/S3/DynamoDB/SNS
 ## 📂 Project Structure
 
 incident_response_pipeline/
-├── code/
+1 code/
 │   ├── incident_response_lambda.py   # AWS Lambda function
-├── policies/
+2 policies/
 │   ├── incident_response_policy.json   # IAM policy
-├── diagrams/
+3 diagrams/
 │   └── Visual_pipeline_diagram.png     # Visual pipeline diagram
-├── tests/                  
+4 tests/                  
 │   └──stop_ec2_test.json               # Sample test event for Lambda
-└── README.md
+5 README.md
 
 ## 🧑‍💻 Skills Demonstrated
 - AWS Lambda development (Python + boto3)
